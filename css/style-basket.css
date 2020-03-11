@@ -1,0 +1,145 @@
+/*===== FONT FACE =====*/
+@font-face {
+	font-family: "MYRIADPRO-BOLD";
+	src : url('../font-family/MYRIADPRO-BOLD.OTF');
+}
+@font-face {
+	font-family: "MYRIADPRO-REGULAR";
+	src : url('../font-family/MYRIADPRO-REGULAR.OTF');
+}
+@font-face {
+	font-family: "MYRIADPRO-LIGHT";
+	src : url('../font-family/MyriadPro-Light.otf');
+}
+/*BACKGROUND COLOR*/
+::selection {background:#333333;color:#ffffff;}
+::-moz-selection {background:#333333;color:#ffffff;}
+::-webkit-selection {background:#333333;color:#ffffff;}
+/*===== BODY =====*/
+body {
+	font-family: "MYRIADPRO-REGULAR";
+	font-size: 1rem;
+	line-height: 1.2;
+    color: #8c92a0;
+    letter-spacing: 1.5px;
+}
+
+/* ===== WP-CONTENT ===== */
+/* ----- content -----  */
+.box {
+    font-family: "MYRIADPRO-LIGHT";
+    font-size: .8125rem;
+}
+.box .box-head h4.box-head-title {
+    font-size: 1.6875rem;
+    color: #000;
+}
+/* box head  */
+.box .box-head {
+    border-bottom: 1px solid #e1e1e1;
+}
+/* content  */
+.box .box-content .border_ {
+    border-right: 1px solid #e1e1e1;
+}
+.box .box-content h4.box-content-title {
+    color: #000;
+    margin: 20px 0;
+}
+.box .box-content h4.box-content-title span {
+    background-color: #e32124;
+    width: 30px;
+    height: 35px;
+    line-height: 35px;
+}
+/* info order */
+.box .box-content label {
+    color: #333333;
+    margin-bottom: 5px;
+    font-size: .9375rem;
+    color: #333333;
+}
+.box .box-content input {
+    border: 1px solid #e1e1e1;
+    height: 30px;
+}
+.box .box-content select {
+    color: #333333;
+    padding: 2px 0;
+    border: 1px solid #e1e1e1;
+}
+.box .box-content select option {
+    padding: 5px 0;
+}
+.box .box-content textarea {
+    border: 1px solid #e1e1e1;
+    height: 100px;
+    font-size: .9375rem;
+    color: #333333;
+}
+/* payment methods */
+.payment-methods label {
+    margin-top: 11px;
+}
+.payment-methods form {
+    padding-left: 28px;
+}
+/* info basket */
+.info-basket .wp-table {
+    height: 170px;
+    overflow: auto;
+}
+.info-basket .table thead {
+    border-bottom: 1px solid #000;
+    font-weight: 500;
+}
+.info-basket .table td {
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.info-basket .table tr {
+    border-bottom: 1px solid #e1e1e1;
+}
+.info-basket .table td:nth-child(2) {
+    padding-right: 25px;
+}
+.info-basket .table td:first-child {
+    text-align: left;
+}
+.info-basket .order {
+    border-top: 1px solid #000;
+}
+.info-basket .order ul.list-relative li{
+    color: #000;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 12px 0;
+}
+.info-basket .order ul.list-relative li.price-total {
+    color: #00aeef;
+}
+.info-basket .order ul.list-relative li::before {
+    content: attr(data-label);
+    float: left;
+}
+.info-basket .order button[type="button"] {
+    border: 1px solid #e1e1e1;
+    height: 30px;
+    background-color: #b2bec3;
+    color: #555151;
+}   
+/* control basket  */
+.control-basket a.btn {
+    color: #fff;
+    padding: 5px 0;
+}
+.control-basket a.btn.prev {
+    background-color: #000;
+}
+.control-basket a.btn.next {
+    background-color: #f00;
+}
+/* ===== GENERAL ===== */
+.box .box-content h4.box-content-title,.info-basket .order ul.list-relative li.pay-provisional,.info-basket .order ul.list-relative li.price-total {
+    font-weight: 700;
+}

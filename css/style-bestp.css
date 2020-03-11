@@ -1,0 +1,67 @@
+/*===== FONT FACE =====*/
+@font-face {
+	font-family: "MYRIADPRO-BOLD";
+	src : url('../font-family/MYRIADPRO-BOLD.OTF');
+}
+@font-face {
+	font-family: "MYRIADPRO-REGULAR";
+	src : url('../font-family/MYRIADPRO-REGULAR.OTF');
+}
+@font-face {
+	font-family: "MYRIADPRO-LIGHT";
+	src : url('../font-family/MyriadPro-Light.otf');
+}
+/*BACKGROUND COLOR*/
+::selection {background:#333333;color:#ffffff;}
+::-moz-selection {background:#333333;color:#ffffff;}
+::-webkit-selection {background:#333333;color:#ffffff;}
+/*===== BODY =====*/
+body {
+	font-family: "MYRIADPRO-REGULAR";
+	font-size: 1rem;
+	line-height: 1.2;
+	color: #8c92a0;
+}
+/* ===== WP-CONTENT ===== */
+/* content  */
+section#top-product .box .list-product-sort ul.list li a {
+    color: #333;
+    padding: 0 10px;
+}
+section#top-product .box .list-product-sort ul.list li a.active {
+    border: none;
+    box-shadow: 0 0 10px rgba(90, 79, 79, 0.5);
+    font-weight: 700;
+}
+section#top-product .box .list-product-sort ul.list li + li::before {
+    content: "/";
+    position: absolute;
+}
+section#top-product .box nav.wp-pagination ul.pagination li a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0;
+    margin-right: 7px;
+    border-radius: 100%;
+    color: #e1e1e1;
+}
+section#top-product .box nav.wp-pagination ul.pagination li a:focus {
+    box-shadow: none;
+}
+section#top-product .box nav.wp-pagination ul.pagination li a:hover {
+    color: #333;
+}
+section#top-product .box nav.wp-pagination ul.pagination li a.active {
+    background-color: #00c5bb;
+    border-color: #00c5bb;
+    color: #333;
+    font-weight: 700;
+}
+section#top-product .box .box-head nav.wp-pagination ul.pagination li:last-child > a {
+    margin-right: 0;
+}
+.box .box-body .img-big .p-item .p-img a.thumb-img img{
+    height: 600px;
+}

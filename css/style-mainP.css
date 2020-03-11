@@ -1,0 +1,280 @@
+/*===== FONT FACE =====*/
+@font-face {
+	font-family: "MYRIADPRO-BOLD";
+	src : url('../font-family/MYRIADPRO-BOLD.OTF');
+}
+@font-face {
+	font-family: "MYRIADPRO-REGULAR";
+	src : url('../font-family/MYRIADPRO-REGULAR.OTF');
+}
+@font-face {
+	font-family: "MYRIADPRO-LIGHT";
+	src : url('../font-family/MyriadPro-Light.otf');
+}
+/*BACKGROUND COLOR*/
+::selection {background:#333333;color:#ffffff;}
+::-moz-selection {background:#333333;color:#ffffff;}
+::-webkit-selection {background:#333333;color:#ffffff;}
+/*===== BODY =====*/
+body {
+	font-family: "MYRIADPRO-REGULAR";
+	font-size: 1rem;
+	line-height: 1.2;
+	color: #8c92a0;
+}
+/* ===== BREAD CRUMB ===== */
+#breadcrumb {
+    background-color: #e9ecef;
+}
+#breadcrumb ol.breadcrumb li {
+    font-family: "MYRIADPRO-LIGHT";
+    color: #333333;
+}
+/* ===== WP-CONTENT ===== */
+/* content  */
+/* photo realistic */
+.photo-realistic h4 {
+    font-family: "MYRIADPRO-LIGHT";
+    color: #2d3436;
+    line-height: 40px;
+}
+.photo-realistic .owl-carousel a.see-all img {
+    height: 132px;
+}
+/*casousel*/
+.owl-carousel.owl-loaded {
+	position: relative!important;
+}
+#main-product {
+    font-family: "MYRIADPRO-LIGHT";
+}
+#main-product .info-product .relative ul.list-color li a {
+    width: 120px;
+    height: 159px;
+}
+#main-product .info-product .relative ul.list-color li a.active {
+    border: 2px solid rgba(219, 95, 95, .6);
+    box-shadow: 0 0 20px rgba(224, 61, 61, .5);
+}
+#main-product .info-product h2.name-p {
+    color: #2d3436;
+    font-size: 1.75rem;
+    letter-spacing: .125rem;
+}
+#main-product .info-product aside.code-p {
+    font-size: .75rem;
+    line-height: 30px;
+    letter-spacing: .09375rem;
+}
+#main-product .info-product aside.code-p strong {
+    font-size: .9375rem;
+}
+#main-product .info-product .relative span.price {
+    font-size: 2.1875rem;
+    color: #ff0000;
+}
+#main-product .info-product .relative  h4.name-option {
+    font-size: 1.375rem;
+    color: #2d3436;
+}
+.input-quantity input[type="text"] {
+    width: 40px;
+	height: 40px;
+}
+.input-quantity button[type="submit"] {
+    width: 25px;
+	height: 25px;
+	line-height: 25px;
+	color: #000;
+	background-color: none;
+}
+#main-product .info-product .action-option .btn-action-p {
+    border: 2px solid #ff0000;
+    background: none;
+    padding: 10px 20px;
+    color: #ff0000;
+}
+#main-product .info-product .action-option .btn-action-p.pay-now {
+    border: 2px solid #000;
+    color: #000;
+}
+#main-product .info-product .list-store button {
+    padding: 10px 0;
+    background-color: #000;
+    font-size: 1.25rem;
+}
+#main-product .info-product .support-option p {
+    color: #222f3e;
+    font-size: 1.125rem;
+    line-height: 35px;
+    letter-spacing: .1875rem;
+}
+/* info relative */
+.nav-tabs a.nav-link {
+    color: #222f3e!important;
+    border: 1px solid #e1e1e1!important;
+    padding: 13px 0;
+}
+#info-relative .reviews a.reviewer {
+    width: 55px;
+    height: 55px;
+}
+#info-relative .reviews .media-body h5.name-reviewer {
+    color: #222f3e;
+}
+#info-relative .reviews .media-body .vote .num-start {
+    color: #11100e;
+    font-size: .625rem;
+}
+#info-relative .reviews .media-body .content-review {
+    font-size: .9375rem;
+    color: #576574;
+}
+#info-relative .posted-review .comment {
+    border: 2px solid #000;
+    padding: 25px 35px;
+}
+#info-relative .posted-review .comment h5 {
+    font-size: 1.25rem;
+    color: #222f3e;
+}
+#info-relative .posted-review .comment .login-box a{
+    border: 2px solid #1e90ff;
+    color: #70a1ff;
+    padding: 10px 20px;
+}
+/* relative product  */
+.relative-product a.item-p img{
+    height: 413px;
+}
+/* ===== TAB PANE PHOTO REALISTIC ===== */
+#tab-pane-photo-realistic {
+    background-color: black;
+    z-index: 90000;
+    opacity: .99;
+    top: 0;
+    left: 0;
+}
+#tab-pane-photo-realistic .close-pane {
+    top: 0;
+    right: 0;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+#tab-pane-photo-realistic .close-pane:hover {
+    color: #ff4d4d;
+    transition: color  .5s;
+}
+#tab-pane-photo-realistic .box-img button[type="button"].btn-control {
+    top: 45%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color:#3d3d3d;
+    font-size: 2.1875rem;
+}
+#tab-pane-photo-realistic .box-img button[type="button"].btn-control:hover {
+    transform: scale(1.2, 1.2);
+}
+/* ===== MODAL ADD BADKET ===== */
+.modal#add-basket {
+    font-family: "MYRIADPRO-LIGHT";
+}
+.modal#add-basket .title-quantity {
+    font-size: 1.125rem;
+}
+.modal#add-basket .title-quantity strong,
+.modal#add-basket .title-quantity i {
+    color: #00c5bb;
+    font-size: 1.125rem;
+}
+.modal#add-basket .title-quantity button.close {
+    padding: 5px 10px;
+}
+.modal#add-basket .modal-header {
+    background-color: #f1f1f1;
+    font-size: .9375rem;
+    line-height: 28px;
+}
+.modal#add-basket .modal-header div.item-border {
+    border-right: 2px solid #fff;
+}
+.modal#add-basket .modal-body {
+    padding-left: 40px;
+}
+.modal#add-basket .modal-body .popup-item {
+    border-bottom: 1px solid #e7edec;
+}
+.modal#add-basket .modal-body a.name-pd {
+    color: #00c5bb;
+    letter-spacing: .125rem;
+}
+.modal#add-basket .modal-body a.delete-pd {
+    color: #2d3436;
+}
+.modal#add-basket .modal-body .price-current {
+    font-size: 1.375rem;
+    color: #000;
+    letter-spacing: .0625rem;
+}
+.modal#add-basket .modal-body .pd-quantity input.quantity {
+    padding: 10px;
+}
+.modal#add-basket .modal-body .total-price {
+    font-size: 1.375rem;
+    letter-spacing: .0625rem;
+    color: #000;
+}
+.modal#add-basket .modal-footer {
+    background-color: #e3f6fa;
+    color: #2d3436;
+    font-size: 1.25rem;
+}
+.modal#add-basket .modal-footer a.continueShopping {
+    color: #2bb6a9;
+}
+.modal#add-basket .modal-footer .full-payment {
+    letter-spacing: .09375rem;
+}
+.modal#add-basket .modal-footer .full-payment span.price-all {
+    font-family: "MYRIADPRO-REGULAR";
+    color: #ff0000;
+    font-size: 1.25rem;
+}
+.modal#add-basket .modal-footer .pay a{
+    font-family: "MYRIADPRO-REGULAR";
+    width: 188px;
+    height: 40px;
+    background: #00c5bb;
+    line-height: 40px;
+    font-size: 1.0625rem;
+}
+/* ===== MODAL SHOW LIST STORE ===== */
+.modal#show-list-store h4.title-popup{
+    font-size: 1.4375rem;
+    color: #333333;
+}
+.modal#show-list-store ul.list-store li {
+    font-family:  "MYRIADPRO-LIGHT";
+    color: #2d3436;
+}
+.modal#show-list-store ul.list-store li .phone {
+    font-size: .75rem;
+}
+
+/*===== RENERAL ===== */
+.owl-carousel.carousel-pd .owl-nav button,.owl-carousel.carousel-pd .owl-theme .owl-dots,#tab-pane-photo-realistic {
+    display: none;
+}
+#main-product .info-product .list-store button:focus,#main-product .info-product .action-option .btn-action-p:focus {
+    box-shadow: none;
+}
+#main-product .info-product .relative ul.list-color li a,#info-relative .reviews a.reviewer,#tab-pane-photo-realistic .box-img-header div.thumb-img {
+    overfloW: hidden!important;
+}
+.input-quantity button[type="submit"],#main-product .info-product .list-store button,#info-relative .reviews a.reviewer,#tab-pane-photo-realistic .box-img button[type="button"].btn-control {
+    border: none;
+}
+.input-quantity button[type="submit"],#main-product .info-product .action-option .btn-action-p:focus,.modal#add-basket .title-quantity button.close:focus {
+    outline: none;
+}

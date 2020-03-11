@@ -1,0 +1,131 @@
+/*===== FONT FACE =====*/
+@font-face {
+	font-family: "MYRIADPRO-BOLD";
+	src : url('../font-family/MYRIADPRO-BOLD.OTF');
+}
+@font-face {
+	font-family: "MYRIADPRO-REGULAR";
+	src : url('../font-family/MYRIADPRO-REGULAR.OTF');
+}
+@font-face {
+	font-family: "MYRIADPRO-LIGHT";
+	src : url('../font-family/MyriadPro-Light.otf');
+}
+/*BACKGROUND COLOR*/
+::selection {background:#333333;color:#ffffff;}
+::-moz-selection {background:#333333;color:#ffffff;}
+::-webkit-selection {background:#333333;color:#ffffff;}
+/*===== BODY =====*/
+body {
+	font-family: "MYRIADPRO-LIGHT";
+	font-size: 1rem;
+	line-height: 1.2;
+	color: #8c92a0;
+}
+/* ===== WP-CONTENT ===== */
+#wp-content {
+	margin-top: 87px;
+}
+.cart {
+	letter-spacing: 1.5px;
+}
+.cart .table thead {
+	border-bottom: 1px solid #e1e1e1;
+	font-size: 1.125rem;
+}
+.cart .table tbody {
+	border-top: 1px solid #e1e1e1;
+}
+.cart .table tbody td {
+	border-bottom: 1px solid #e1e1e1;
+}
+.cart .table tbody td.this-img {
+	padding: 5px 0px;
+    width: 173px;
+}
+.cart .table tbody td.this-img a.thumb-img{
+    width: 100px;
+    height: 170px;
+    overflow: hidden;
+}
+.cart .table tbody tr td {
+	padding-top: 50px;
+}
+.cart .table tbody tr td a.this-name {
+	font-family: "MYRIADPRO-REGULAR";
+	color: #333;
+}
+.cart .table tbody tr td a.this-name:hover {
+	color: #78cccd;
+	text-decoration-line: underline;
+}
+.cart .table tbody tr td.price {
+	font-size: 1.375rem;
+	color: #484b51;
+}
+.cart .table tbody tr td.num-pd button[type='submit'] {
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	color: #000;
+	background-color: none;
+}
+.cart .table tbody tr td.num-pd input[type='text'] {
+	width: 40px;
+	height: 40px;
+}
+.cart .table tbody tr td.all-price {
+	font-family: "MYRIADPRO-REGULAR";
+	color: #000;
+	font-size: 1.375rem;
+}
+.cart .table tbody tr td.delete i {
+	opacity: .7;
+	font-size: 1.5625rem;
+}
+.cart .table tbody tr td.delete i:hover {
+	opacity: .9;
+}
+/* ===== GIRD ===== */
+#grid h4.grid-name {
+	font-family: "MYRIADPRO-REGULAR";
+	font-size: 1.25rem;
+	line-height: 35px;
+	padding: 10px 0 15px 0;
+	color: #333333;
+}
+#grid .grid-item #notes {
+	height: 134px;
+	border: 1px solid #e1e1e1;
+	padding: 10px 15px;
+	letter-spacing: 1.5px;
+}
+#grid p.total-price {
+	font-family: "MYRIADPRO-REGULAR";
+	font-size: 2.1875rem;
+	color: #000;
+	margin-bottom: 2px;
+}
+#grid {
+	font-size: 1.125rem;
+}
+#grid span.sub-name {
+	color: #000;
+}
+#grid a.btn {
+	color: #fff;
+	border: 1px solid #78cccd;
+	background-color: #78cccd;
+}
+#grid .btn.btn-to-shopping {
+	background: none;
+	color: #78cccd;
+}
+#grid .btn.btn-to-shopping:hover {
+	background-color: #78cccd;
+	color: #fff;
+}
+#grid a.btn:focus {
+	outline: none;
+	box-shadow: none;
+}
